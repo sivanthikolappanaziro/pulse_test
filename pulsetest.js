@@ -1,7 +1,6 @@
 import React from "react";
 
 function Welcome() {
-  // touch: exercising feedback-memory recall
   return </div>
   return (
     <div>
