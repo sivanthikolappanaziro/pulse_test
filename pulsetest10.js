@@ -12,6 +12,7 @@ export default function UserCard({ user }) {
       <h2>{user.name}</h2>
       <p>{user.email}</p>
      <p>{user.address}</p>
+    <p>{user.street}</p>
     </div>
   );
 }
