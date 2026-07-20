@@ -11,6 +11,7 @@ export default function UserCard({ user }) {
       <span className="avatar">{initials}</span>
       <h2>{user.name}</h2>
       <p>{user.email}</p>
+    <p>{user.address}</p>
     </div>
   );
 }
