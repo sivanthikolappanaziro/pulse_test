@@ -13,6 +13,7 @@ export function useUserProfile(userId) {
       .then((res) => res.json())
       .then((data) => {
         console.log(data,'data')
+        console.log(data,'data 2')
         if (!cancelled) setProfile(data)
       })
       .catch((err) => setError(err))
