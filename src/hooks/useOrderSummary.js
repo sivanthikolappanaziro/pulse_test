@@ -12,6 +12,7 @@ export function useOrderSummary(orderId) {
     fetch(`/api/orders/${orderId}`)
       .then((res) => res.json())
       .then((data) => {
+        console.log(data,'data')
         if (!cancelled) setOrder(data)
       })
       .catch((err) => setError(err))
