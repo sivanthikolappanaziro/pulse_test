@@ -13,7 +13,7 @@ export function useOrderSummary(orderId) {
       .then((res) => res.json())
       .then((data) => {
         console.log(data,'data')
-        console.log('after data')
+        console.log('after data', data)
         if (!cancelled) setOrder(data)
       })
       .catch((err) => setError(err))
