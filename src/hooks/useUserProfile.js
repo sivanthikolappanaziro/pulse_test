@@ -12,7 +12,6 @@ export function useUserProfile(userId) {
     fetch(`/api/users/${userId}`)
       .then((res) => res.json())
       .then((data) => {
-        console.log(data,'data');
         if (!cancelled) setProfile(data)
       })
       .catch((err) => setError(err))
