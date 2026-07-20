@@ -14,6 +14,7 @@ export function useUserProfile(userId) {
       .then((data) => {
         console.log(data,'data')
         console.log(data,'data 2')
+        console.log(data,'data 2')
         if (!cancelled) setProfile(data)
       })
       .catch((err) => setError(err))
