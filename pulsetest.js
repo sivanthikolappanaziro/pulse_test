@@ -1,6 +1,9 @@
 import React from "react";
 
 function Welcome() {
+  const func = () => {
+    console.log('data')
+  }
   return </div>
   return (
     <div>
