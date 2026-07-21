@@ -29,6 +29,7 @@ export function FeedbackMemoryPanel({
   return (
     <section aria-label="Feedback memory summary">
       <h1>Hello, {reviewerName}!</h1>
+      <p>Review metrics update automatically as new comments arrive.</p>
       <div dangerouslySetInnerHTML={{ __html: announcementHtml }} />
       <ul>
         {metrics.map((metric) => (
