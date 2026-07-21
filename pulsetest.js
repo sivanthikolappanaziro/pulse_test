@@ -1,7 +1,9 @@
 import React from "react";
 
 function Welcome() {
-  // test for re run 
+  const func = () => {
+    console.log('test clog')
+  }
   return </div>
   return (
     <div>
